@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'system-ui';
+    color: #fff;
+}
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'system-ui';
+        background-color: rgb(0, 0, 0);
+     }
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(179, 101, 29);
+}
+
+.logo{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+     
+}
+.logo a img{
+    height: 40px;
+    width: 40px;
+    margin-right: 4px;
+    filter: invert(100%);
+    cursor: default;
+}
+.logo p{
+    font-size: 32px;
+    font-weight: 500;
+    cursor: default;
+
+}
+header .navigatiion ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  
+
+}
+header .navigatiion li{
+    list-style: none;
+}
+header .navigatiion li a{
+    font-size: 18px;
+
+    color: black;
+    margin-left: 37px;
+    text-decoration: none;
+    
+}
+.navigatiion li a:hover{
+        transition: 0.5s;
+        color: rgb(133, 77, 26);
+}
+/*Inicio do Hom*/
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.home .text{
+    position: relative;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+.home .text h2{
+    color: rgb(179, 101, 29);
+    font-size: 3em;
+    margin-bottom: 5px;
+    line-height: 2em;
+    font-weight: 800;
+}
+.home .text h3{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 24px;
+    line-height: 1em;
+    font-weight: 600;
+}
+.home .text h3 span{
+    color: rgb(179, 101, 29);
+    font-size: 1em;
+    font-weight: 800;
+    
+    
+}
+.home .text p{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+
+    line-height: 1.5em;
+
+}
+
+.home .text a{
+    display: inline-block;
+    text-decoration: none;
+    border:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(179, 101, 29);
+    padding: 10px 27px;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+.home .text a:hover{
+    transform: translateY(-10px);
+}
+
+.social{
+    position: absolute;
+    bottom: 44px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social li{
+    list-style: none;
+}
+.social li a img{
+    display: inline-block;
+    width: 50x;
+    height: 50px;
+   margin-right: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+.social li a img:hover{
+    transform: translateY(-10px);
+}
+
+.fot{
+    position: relative;
+    top: 0;
+    left: 0;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 250px;
+    margin-right: 100px;
+               
+    background-image: url('../img/jan-kahanek-fVUl6kzIvLg-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
